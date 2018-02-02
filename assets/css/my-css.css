@@ -1,0 +1,171 @@
+@font-face{
+	font-family: TATTOO;
+	src: url(../fonts/TATTOO.otf);
+}
+
+@keyframes glisse {
+		0% {
+			transform: translateX(0);
+		}
+		10% {
+			transform: translateX(0);
+		}
+		20% {
+			transform: translateX(-500px);
+		}
+		30% {
+			transform: translateX(-500px);
+		}
+		40% {
+			transform: translateX(-1000px);
+		}
+		50% {
+			transform: translateX(-1000px);
+		}
+		60% {
+			transform: translateX(-1500px);
+		}
+		70% {
+			transform: translateX(-1500px);
+		}
+		80% {
+			transform: translateX(-2000px);
+		}
+		90% {
+			transform: translateX(-2000px);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
+ul {
+	text-align: center;
+	margin: auto;
+}
+
+#glyphicon{
+	margin-right: 10px;
+	size: 120%;
+}
+
+a {
+	font-size: 100%;
+    display: inline;
+}
+
+.glyphicon.icon-menu {
+	font-size: 110%!important;
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+p.subtitle{
+	font-size: 120%!important;
+}
+
+span.home-image{
+	height: auto;
+	width: auto;
+	background-image:url('images/logo.jpg');
+}
+
+.btn {
+    position: relative;
+    height: 20px;
+    padding: 1px 8px 1px 6px;
+    font-weight: 500;
+    color: white!important;
+    cursor: pointer;
+    background-color: #1b95e0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: auto;
+    font-weight: bold;
+}
+
+.logo{
+	width: 200px;
+	margin: 10px;
+}
+
+.button {
+	background-color: red;
+}
+
+.slider {
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	margin: 150px auto;
+}
+
+.slide {
+	float: left;
+}
+
+.image{
+	width: 500px;
+	height: 500px;
+}
+	
+.slides {
+	width: calc(100%  * 5);
+	animation: glisse 10s infinite;
+}
+
+.text{
+	color: white;
+}
+
+.accueil{
+	background: url("images/pexels-photo-194074.jpeg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-position:center;
+
+}
+.wood{
+	background: url(images/wood_1.png);
+}
+
+.para{
+	color: white!important;
+}
+
+header h2{
+	color: white;
+}
+
+.fin{
+	color: white;
+}
+
+.boxpost{
+	color: white;
+}
+
+h2 strong{
+	color: white;
+}
+
+.panews{
+	color: white;
+}
+
+.pnews{
+	color: white;
+}
+
+.date{
+	color: pink;
+}
+
+h1{
+	font-family: TATTOO !important; 
+	font-size: 100px !important;
+}
+
+.h1{
+	font-size:120px !important;
+}
